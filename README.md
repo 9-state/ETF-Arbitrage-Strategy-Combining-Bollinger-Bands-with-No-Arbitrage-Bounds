@@ -3,7 +3,7 @@
 ## 1. 股指期货与交易型开放式指数基金ETF
 ETF 是一种在证券交易所上市交易的基金，通常跟踪某个指数、行业或资产类别。股指期货是以股票指数为标的的标准化期货合约，买卖双方约定在未来某一时间按约定价格交割。在ETF期现套利模型中，我们将ETF基金来作为现货。与股票相比，其优势在于流动性强，不存在当天无法交易等特殊情况的风险。
 ## 2. 简单对冲
-首先我们讨论，在进行对冲时的股指期货与ETF的交易数量。以沪深300股指期货（IF）为例，申明$`IFprice`$为股指期货的价格，$`ETFprice`$为ETF基金的价格。假设当前指数价格为$`P`$，ETF价格与指数点位的乘数关系为$`u`$，股指期货合约乘数为$`k`$，则有$`IFprice \times u = P`$。令IF价值与ETF价值相等，则有$`P\times k = n\times ETFprice`$，可以得到每对冲1单位的ETF，需要反向操作n单位的IF，其中：
+首先我们讨论，在进行对冲时的股指期货与ETF的交易数量。以沪深300股指期货（IF）为例，申明$`IFprice`$为股指期货的价格，$`ETFprice`$为ETF基金的价格。假设当前指数价格为$`P`$，ETF价格与指数点位的乘数关系为$`u`$($`P = u \times ETFprice`$)，股指期货合约乘数为$`k`$($`k \times P = IFvalue`$)，则有$`IFprice \times u = P`$。令IF价值与ETF价值相等，则有$`P\times k = n\times ETFprice`$，可以得到每对冲1单位的ETF，需要反向操作n单位的IF，其中：
 <p align="center">$n = \frac{IFprice\times u\times k}{ETFprice}$</p>
 
 ## 3. 价差与布林带
