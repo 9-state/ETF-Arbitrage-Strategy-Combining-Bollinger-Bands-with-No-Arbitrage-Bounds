@@ -27,26 +27,36 @@ ETF 是一种在证券交易所上市交易的基金，通常跟踪某个指数�
 ## 三、回测结果
 本文尝试了多个股指期货与相应ETF的投资组合，其中部分回测结果如下：
 ### 1. 南方沪深300ETF（159925.XSHE），IF2004
-<img src="https://github.com/user-attachments/assets/a3f36161-a90b-41e1-9b1d-ac9d1fb226f6" width="600" />
+<img src="https://github.com/user-attachments/assets/a3f36161-a90b-41e1-9b1d-ac9d1fb226f6" width="800" />
+
 回测期间内，一共产生了27次交易信号（具体记录可见源码），回测收益为8.5%，年画收益为71.7%。套利策略的特点是风险低，可以看到策略的回撤较小，收益比较稳定。
 ### 2. 广发沪深300ETF（159925.XSHE），IF2004
-<img src="https://github.com/user-attachments/assets/e9da3de0-2cfe-4509-96f4-d15cb754a0ce" width="600" />
+<img src="https://github.com/user-attachments/assets/e9da3de0-2cfe-4509-96f4-d15cb754a0ce" width="800" />
+
 ### 3. 华夏沪深300ETF（510330.XSHG），IF2004
-<img src="https://github.com/user-attachments/assets/d3a0c119-02f7-44bb-99e6-bada1ae611ce" width="600" />
+<img src="https://github.com/user-attachments/assets/d3a0c119-02f7-44bb-99e6-bada1ae611ce" width="800" />
+
 ### 4. 嘉实沪深300ETF（159919.XSHE），IF2004
-<img src="https://github.com/user-attachments/assets/18af659c-3603-40bd-8939-494391516355" width="600" />
+<img src="https://github.com/user-attachments/assets/18af659c-3603-40bd-8939-494391516355" width="800" />
+
 ### 5. 工银瑞信沪深300ETF（510350.XSHG），IF2004
-<img src="https://github.com/user-attachments/assets/cdf9a088-6ad9-40cf-9d77-ed4096fe9e8b" width="600" />
+<img src="https://github.com/user-attachments/assets/cdf9a088-6ad9-40cf-9d77-ed4096fe9e8b" width="800" />
+
 ### 6. 博时上证50ETF（510710.XSHG），IH2004
-<img src="https://github.com/user-attachments/assets/433bbcfa-1d65-4f20-9c35-c7a4b2ce0b6f" width="600" />
+<img src="https://github.com/user-attachments/assets/433bbcfa-1d65-4f20-9c35-c7a4b2ce0b6f" width="800" />
+
 ### 7. 华夏上证50ETF（510050.XSHG），IH2004
-<img src="https://github.com/user-attachments/assets/021b49a9-9360-45bb-9dbc-e227fcc60424" width="600" />
+<img src="https://github.com/user-attachments/assets/021b49a9-9360-45bb-9dbc-e227fcc60424" width="800" />
+
 ### 8. 工银瑞信上证50ETF（510850.XSHG），IH2004
-<img src="https://github.com/user-attachments/assets/f5145973-52b5-46b2-8448-7dca27701fcc" width="600" />
+<img src="https://github.com/user-attachments/assets/f5145973-52b5-46b2-8448-7dca27701fcc" width="800" />
+
 ### 9. 万家上证50ETF（510680.XSHG），IH2004
-<img src="https://github.com/user-attachments/assets/997ae39a-76e4-4268-8d20-b042fc012286" width="600" />
+<img src="https://github.com/user-attachments/assets/997ae39a-76e4-4268-8d20-b042fc012286" width="800" />
+
 ### 10. 华夏上证50ETF（510100.XSHG），IH2004
-<img src="https://github.com/user-attachments/assets/f7d1c921-5cc9-48ef-b90f-c7d5cd0f53cf" width="600" />
+<img src="https://github.com/user-attachments/assets/f7d1c921-5cc9-48ef-b90f-c7d5cd0f53cf" width="800" />
+
 可以看到，该策略初步可行，在涵盖市面上大部分ETF的情况下，最低收益率仅为-0.6%（华夏沪深300ETF）。且作为套利模型，在风险极低，回撤极低的情况下，部分组合还出现了16.4%的收益率（万家上证50ETF）
 <img src="https://github.com/user-attachments/assets/d4d0acc9-5d9c-4263-ad01-5c2f1ffc12c3" width="600" />
 ## 四、改进
